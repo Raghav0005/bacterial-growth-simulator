@@ -27,7 +27,7 @@ Options are available through a dropdown menu. Grid size can range from 1x1 to 7
     npm start
 Access the application at http://localhost:3000
 
-## Project Structure
+## Project Structure and Key Components
 
 The application is organized into several key directories and files:
 
@@ -43,6 +43,9 @@ The application is organized into several key directories and files:
 ## Assumptions
 Manual cell toggling does not reset or affect the simulation interval. <br>
 Dropdown menus are a valid input field - they are used to reduce the margin for user input error, by providing specific options for user input.
+
+## Additional Features Implemented
+Grid Size Customization: Users can also dynamically change the grid size without restarting the application. Options are available through a dropdown menu. Grid size can range from 1x1 to 75x75.
 
 ## Performance Analysis
 I used the performance metrics in Google Chrome's dev tools, under the performance tab.
